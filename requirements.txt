@@ -1,0 +1,8 @@
+streamlit
+pandas
+matplotlib
+seaborn
+python-dotenv
+openai
+mysql-connector-python
+langchain-mistralai
