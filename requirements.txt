@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 streamlit
 pandas
 matplotlib
@@ -6,13 +5,4 @@ seaborn
 python-dotenv
 openai
 mysql-connector-python
-=======
-streamlit
-pandas
-matplotlib
-seaborn
-python-dotenv
-openai
-mysql-connector-python
->>>>>>> 219835bee29bc6a6c72333761d73d9695c1c441f
 langchain-mistralai
