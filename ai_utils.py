@@ -1,12 +1,19 @@
 from langchain_mistralai import ChatMistralAI
+import streamlit as st
 from langchain_core.messages import HumanMessage
 import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
+# client = ChatMistralAI(
+#     api_key=os.getenv("MISTRAL_API_KEY"),
+#     model="mistral-small"
+# )
+api_key = st.secrets.get("MISTRAL_API_KEY", os.getenv("MISTRAL_API_KEY"))
+
 client = ChatMistralAI(
-    api_key=os.getenv("MISTRAL_API_KEY"),
+    api_key=api_key,
     model="mistral-small"
 )
 
